@@ -266,6 +266,10 @@ header {
     text-align: center;
 }
 
+.servicio__ind:nth-child(1) ,.servicio__ind:nth-child(2){
+    margin-bottom: 60px;
+}
+
 .servicio__ind img{
     width: 90%;
 }
