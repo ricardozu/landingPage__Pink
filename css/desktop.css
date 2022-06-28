@@ -1,0 +1,41 @@
+header {
+    height: 500px;
+}
+
+.header__text{
+    /*En desktop es 300*/
+    height: 300px;
+}
+
+.header__text > h1{
+    font-size: 3.6rem;
+}
+
+.header__text>h2{
+    font-size: 2rem;
+}
+
+.about__container{
+    flex-direction: row;
+    align-items: center;
+}
+
+.about__picture{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.port__galeria{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen__port{
+    width: 24%;
+}
+
+.servicio__ind{
+    width: 31%;
+}
+
